@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/louaykabouk/gitops-k8s-platform.git
     targetRevision: main
-    path: k8s/demo-app
+    path: helm/demo-app-chart
   destination:
     server: https://kubernetes.default.svc
     namespace: default
